@@ -1,5 +1,4 @@
 # 1. Stack
-[Back](./README.md)
 
 ## Introduction:
 A stack is a fundamental data structure that operates on the principle of Last In, First Out (LIFO). Picture a stack of plates in a cafeteria: the last plate placed onto the stack is the first one to be removed. In this section, we'll explore the definition of a stack and its real-world applications.

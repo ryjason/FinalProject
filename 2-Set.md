@@ -1,5 +1,4 @@
 # 2. Set
-[Back](./README.md)
 
 ## Introduction:
 In the world of data structures, a set stands as a cornerstone, representing an unordered collection of unique elements. As we embark on this journey, we'll unravel the essence of sets and their mathematical properties, paving the way for efficient data manipulation.
