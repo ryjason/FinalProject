@@ -1,6 +1,6 @@
-Author: Jason Rao
-Class: CSE212-02
-Email: jasonrao@byui.edu
+    Author: Jason Rao
+    Class: CSE212-02
+    Email: jasonrao@byui.edu
 
 # Introduction
 Welcome to our tutorial where we embark on a fascinating journey into the realm of data structures. In this tutorial, we'll delve into three fundamental data structures: Stack, Set, and Tree. These structures form the backbone of countless algorithms and applications, empowering us to organize, manipulate, and understand data in powerful ways.
