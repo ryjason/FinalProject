@@ -23,9 +23,17 @@ print("Popped item:", stack.pop()) // Output
 
 ## Operations:
 1. Push: Adding an element to the top of the stack.
+   - Time Complexity: O(1)
+   - Explanation: Since you're adding the element to the top of the stack, regardless of the size of the stack, the time taken is constant.
 2. Pop: Removing and returning the top element from the stack.
+   - Time Complexity: O(1)
+   - Explanation: Similar to push, popping from the top of the stack can be done in constant time, regardless of the stack's size.
 3. Size: Returning the number of elements currently in the stack.
+   - Time Complexity: O(1)
+   - Explanation: To keep track of the number of elements in the stack, most implementations maintain a variable that stores this count. Accessing this count variable takes constant time.
 4. Empty: Checking if the stack is empty.
+   - Time Complexity: O(1)
+   - Explanation: Similar to the size operation, checking whether the stack is empty typically involves examining a single variable or condition, which can be done in constant time.
 
 ## Example (Reverse String):
 Stack is implemented using a Python list. The Stack class has methods for pushing elements onto the stack (push), popping elements off the stack (pop), checking if the stack is empty (is_empty), getting the top element of the stack without removing it (peek), and getting the size of the stack (size).
