@@ -27,9 +27,7 @@ def check_balanced_parentheses(expression):
     for char in expression:
         if char in opening_brackets:
             stack.push(char)
-            print(stack.items)
         elif char in closing_brackets:
-            print(char)
             if stack.is_empty():
                 return False
             top_char = stack.pop()
