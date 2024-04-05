@@ -31,9 +31,15 @@ A Binary Search Tree (BST) is a binary tree in which the value of each node foll
 
 ## Operations (Insertion, Deletion, Search):
 
-Insertion: Adding a new node to the BST while maintaining the ordering property.
-Deletion: Removing a node from the BST while preserving the ordering property.
-Search: Locating a specific value within the BST with optimal efficiency, leveraging its ordered structure.
+1. Insertion: Adding a new node to the BST while maintaining the ordering property. 
+- Time Complexity: O(log n) on average for a balanced BST, O(n) in the worst case.
+- Explanation: When inserting a new node into a BST, we need to find the correct position in the tree based on the value of the node. In a balanced BST, each comparison reduces the search space by approximately half, leading to a time complexity of O(log n). However, in the worst case scenario, if the BST becomes unbalanced, insertion can take O(n) time when the tree degenerates into a linked list.
+2. Deletion: Removing a node from the BST while preserving the ordering property.
+- Time Complexity: O(log n) on average for a balanced BST, O(n) in the worst case.
+- Explanation: Deletion in a BST involves finding the node to be deleted and then rearranging the tree structure while preserving the ordering property. Similar to insertion, deletion requires traversing the tree to find the node to delete, which has a time complexity of O(log n) on average in a balanced tree. However, in the worst case, deletion may take O(n) time if the tree is highly unbalanced.
+3. Search: Locating a specific value within the BST with optimal efficiency, leveraging its ordered structure.
+- Time Complexity: O(log n) on average for a balanced BST, O(n) in the worst case.
+- Explanation: Searching in a BST exploits its ordered structure. At each step of the search, we compare the target value with the value of the current node and choose the appropriate subtree to continue the search. In a balanced BST, this reduces the search space by approximately half at each step, leading to a time complexity of O(log n). However, in the worst case, if the tree is unbalanced, searching may take O(n) time, as it requires traversing all nodes in one branch of the tree.
 
 ## Real-world examples of BST:
 
@@ -204,4 +210,6 @@ def test_bst_operations():
 test_bst_operations()
 
 ```
+[Answer](Python%20Files/BSTanswer.py)
+
 [Back](./README.md)
